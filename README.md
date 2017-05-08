@@ -27,6 +27,7 @@
   * [Deployment Automation](#deployment-automation)
   * [Distributed Filesystems](#distributed-filesystems)
   * [DNS](#dns)
+  * [Domains](#domains)
   * [Editors](#editors)
   * [Identity Management](#identity-management)
   * [IT Asset Management](#it-asset-management)
@@ -83,9 +84,9 @@
 
   * [Amanda](http://www.amanda.org/) - Client-server model backup tool.
   * [Bareos](http://www.bareos.org/en/) - A fork of Bacula backup tool.
+  * [BackupPC](http://backuppc.sourceforge.net/) - BackupPC is a high-performance system for backing up to disk.
   * [Backupninja](https://labs.riseup.net/code/projects/backupninja) - Lightweight, extensible meta-backup system.
   * [BorgBackup](https://github.com/borgbackup/borg) - A fork of [Attic](https://attic-backup.org) deduplicating backup program written in Python.
-  * [Brebis](http://brebisproject.org) - A fully automated backup checker
   * [Burp](http://burp.grke.org/) - Network backup and restore program.
   * [Duplicity](http://duplicity.nongnu.org/) - Encrypted bandwidth-efficient backup using the rsync algorithm.
   * [Elkarbackup](https://github.com/elkarbackup/elkarbackup) - Backup solution based on RSnapshot with a simple web interface
@@ -93,6 +94,7 @@
   * [Obnam](http://obnam.org/) - An easy, secure, snapshots-based backup program with data de-duplication.
   * [Rdiff-backup](http://www.nongnu.org/rdiff-backup/) - An easy A remote incremental backup of all your files.
   * [Rsnapshot](http://rsnapshot.org/) - Filesystem Snapshotting Utility.
+  * [Shield](https://github.com/starkandwayne/shield) - A pluggable architecture for backup and restore of database systems.
   * [Snebu](http://www.snebu.com/) – Snapshot backup with global multi-client deduplication and transparent compression.
   * [UrBackup](http://www.urbackup.org/) - Another client-server backup system.
   * [DREBS](https://github.com/dojo4/drebs) - AWS EBS backup script that supports strategies.
@@ -104,7 +106,7 @@
 
   * [EasyBuild](https://easybuild.readthedocs.org/en/latest/) - EasyBuild builds software and modulefiles for High Performance Computing (HPC) systems in an efficient way.
   * [environment-modules Lmod](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) - Lmod is a Lua based module system that easily handles the MODULEPATH Hierarchical problem.
-  * [HPCBIOS](hpcbios.readthedocs.org/en/latest/) - HPCBIOS is an effort to setup a common, well-documented and reproducible, environment spanning across multiple HPC systems & sites, *inclusive* of documentation.
+  * [HPCBIOS](http://hpcbios.readthedocs.org/en/latest/) - HPCBIOS is an effort to setup a common, well-documented and reproducible, environment spanning across multiple HPC systems & sites, *inclusive* of documentation.
 
 
 ## ChatOps
@@ -157,14 +159,17 @@
 ## Cloud Orchestration
 
   * [BOSH](http://bosh.io/docs/) - IaaS orchestration platform originally written for deploying and managing Cloud Foundry PaaS, but also useful for general purpose distributed systems.
+  * [Cloud Foundry](https://www.cloudfoundry.org/) - A Platform-as-a-Service suite to provide the orchestration services that make distributed apps a powerhouse of awesomeness.
   * [Cloudify](http://getcloudify.org/) - TOSCA-based cloud orchestration software platform written in Python and YAML.
   * [CloudSlang](http://www.cloudslang.io/) - Flow-based orchestration tool for managing deployed applications, with Docker capabilities.
+  * [Genesis](https://github.com/starkandwayne/genesis) - A template framework for multi-environment BOSH deployments.
   * [Juju](https://jujucharms.com/) - Cloud orchestration tool which manages services as charms, YAML configuration and deployment script bundles.
   * [Kubernetes](http://kubernetes.io/) - Orchestration system for Docker containers - ([Source Code](https://github.com/kubernetes/kubernetes), [Documentation](http://kubernetes.io/docs/)) `Apache` `Go`
-  * [MCollective](https://puppetlabs.com/mcollective) - Ruby framework to manage server orchestration, developed by Puppet labs.
+  * [MCollective](https://puppet.com/mcollective) - Ruby framework to manage server orchestration, developed by Puppet labs.
   * [Overcast](http://andrewchilds.github.io/overcast/) - Deploy VMs across different cloud providers, and run commands and scripts across any or all of them in parallel via SSH.
   * [Rundeck](http://rundeck.org/) - Simple orchestration tool.
   * [Salt](http://saltstack.com/) - Fast, scalable and flexible systems management software written in Python/ZeroMQ.
+  * [Spruce](https://github.com/geofffranks/spruce) - A tool that merges separate YAML files into one.  Works well with [Genesis](https://github.com/starkandwayne/genesis).
   * [StackStorm](https://stackstorm.com/) - Event Driven Operations and ChatOps platform for infrastructure management. Written in Python
 
 
@@ -191,11 +196,11 @@
 *Configuration management database (CMDB) software.*
 
   * [i-doit](http://www.i-doit.org/) - IT Documentation and CMDB.
-  * [iTop](http://www.combodo.com/-Overview-.html) - Complete ITIL web based service management tool.
+  * [iTop](http://www.combodo.com/itop-193) - Complete ITIL web based service management tool.
   * [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
   * [Clusto](https://github.com/clusto/clusto) - Helps you keep track of your inventory, where it is, how it's connected, and provides an abstracted interface for interacting with the elements of the infrastructure.
   * [Collins](http://tumblr.github.io/collins/) - At Tumblr, it's the infrastructure source of truth and knowledge.
-
+  * [netbox](https://github.com/digitalocean/netbox) - IP address management (IPAM) and data center infrastructure management (DCIM) tool
 
 ## Configuration Management
 *Configuration management tools.*
@@ -204,7 +209,7 @@
   * [CFEngine](https://cfengine.com/) - Lightweight agent system. Configuration state is specified via a declarative language.
   * [Chef](https://www.chef.io/chef/) - It's written in Ruby and Erlang and uses a pure-Ruby DSL.
   * [Pallet](http://palletops.com/) - Infrastructure definition, configuration and management via a Clojure DSL.
-  * [Puppet](https://puppetlabs.com/) - It's written in Ruby and uses Puppet's declarative language or a Ruby DSL.
+  * [Puppet](https://puppet.com/) - It's written in Ruby and uses Puppet's declarative language or a Ruby DSL.
   * [Salt](http://saltstack.com/) - It's written in Python.
   * [Slaughter](http://www.steve.org.uk/Software/slaughter/) - It's written in Perl.
 
@@ -214,6 +219,7 @@
 
   * [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration.
   * [CapsuleCD](https://github.com/AnalogJ/capsulecd) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc).
+  * [concourse](http://concourse.ci/) - A modern tool to gain visibility on the CI/CD pipeline.  The flexible, declarative DSL is easy to learn and powerful to use.
   * [Drone](https://github.com/drone/drone) - Continuous integration server built on Docker and configured using YAML files.
   * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - Based off of ruby. They also provide GitLab, which manages git repositories.
   * [Go](http://www.go.cd/) - Continuous delivery server.
@@ -231,6 +237,7 @@
     * [Virtualmin](http://www.virtualmin.com/) - Hosting panel for Linux based on webmin.
   * DNS
     * [Atomia DNS](http://atomiadns.com/) - DNS management system.
+    * [nsedit](https://github.com/tuxis-ie/nsedit) - nsedit is a DNS editor for PowerDNS, working with PowerDNS's new API.
     * [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
     * [Poweradmin](http://www.poweradmin.org/) - Friendly web-based DNS administration tool for PowerDNS server.
   * Revision Control
@@ -256,20 +263,25 @@
   * [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool (rake based).
   * [Rocketeer](http://rocketeer.autopergamene.eu/) - PHP task runner and deployment tool.
   * [Vlad the Deployer](https://github.com/seattlerb/vlad) - Deployment automation (rake based).
+  * [munki](https://www.munki.org/munki/) - Webserver-based repository of packages and package metadata, that allows macOS administrators to manage software installs.
 
 
 ## Distributed Filesystems
 *Network distributed filesystems.*
 
+  * [Camlistore](https://camlistore.org/) - A set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data.
   * [Ceph](http://ceph.com/) - Distributed object store and file system.
   * [DRBD](http://drbd.linbit.com/) - Distributed Replicated Block Device.
   * [LeoFS](http://leo-project.net) - Unstructured object/data storage and a highly available, distributed, eventually consistent storage system.
   * [GlusterFS](http://www.gluster.org/) - Scale-out network-attached storage file system.
+  * [Go IPFS](https://github.com/ipfs/go-ipfs) - Implementation of [IPFS](http://ipfs.io/), a global, versioned, peer-to-peer filesystem that seeks to connect all computing devices with the same system of files.
   * [HDFS](http://hadoop.apache.org/) - Distributed, scalable, and portable file-system written in Java for the Hadoop framework.
   * [Lustre](http://lustre.org/) - Parallel distributed file system, generally used for large-scale cluster computing.
   * [MooseFS](http://www.moosefs.org/) - Fault tolerant, network distributed file system.
   * [MogileFS](http://mogilefs.org/) - Application level, network distributed file system.
   * [OpenAFS](http://www.openafs.org/) - Distributed network file system with read-only replicas and multi-OS support.
+  * [Ori Filesystem](http://ori.scs.stanford.edu/) - A Secure Distributed File System built for offline operation.
+  * [Swift](http://docs.openstack.org/developer/swift/) - A highly available, distributed, eventually consistent object/blob store.
   * [TahoeLAFS](https://tahoe-lafs.org/trac/tahoe-lafs) - secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system.
   * [XtreemFS](http://www.xtreemfs.org/) - XtreemFS is a fault-tolerant distributed file system for all storage needs.
 
@@ -288,6 +300,12 @@
   * [Yadifa](http://www.yadifa.eu/) - Lightweight authoritative Name Server with DNSSEC capabilities powering the .eu top-level domain.
 
 
+## Domains
+*Domain management.*
+
+  * [DomainMOD](https://domainmod.org) - Manage your domains and other internet assets in a central location.
+
+
 ## Editors
 *Open source code editors.*
 
@@ -302,6 +320,7 @@
   * [KDevelop](https://www.kdevelop.org/) - IDE by the people behind KDE.
   * [Light Table](http://lighttable.com/) - The next generation code editor.
   * [Lime](http://limetext.org/) - Aims to provide an open source solution to Sublime Text
+  * [Notepad++](https://notepad-plus-plus.org/) - GPLv2 multi-language editor with syntax highlighting for Windows.
   * [TextMate](https://github.com/textmate/textmate/) - A graphical text editor for OS X.
   * [Vim](http://www.vim.org) - A highly configurable text editor built to enable efficient editing.
   * [Visual Studio Code](https://code.visualstudio.com/) - An open source cross-platform extensible code editor from Microsoft
@@ -314,15 +333,21 @@
 ### LDAP
   * [389 Directory Server](http://www.port389.org/) - Developed by Red Hat.
   * [Apache Directory Server](http://directory.apache.org/) - Apache Software Foundation project written in Java.
+  * [FreeRADIUS](http://freeradius.org/) - High performance and highly configurable multi-protocol policy/authentication server, supporting RADIUS, DHCPv4 and VMPS.
   * [OpenDJ](http://opendj.forgerock.org/) - Fork of OpenDS.
   * [OpenDS](https://opends.java.net/) - Another directory server written in Java.
   * [OpenLDAP](http://www.OpenLDAP.org/) - Developed by the OpenLDAP Project.
+  * [FreeIPA](http://www.freeipa.org/) - Based on 389-DS. Includes Kerberos, DNS, as well as host based access control.
 
 ### Tools and web interfaces
   * [Fusion Directory](https://www.fusiondirectory.org) - Improve the Management of the services and the company directory based on OpenLDAP.
-  * [FreeIPA](http://www.freeipa.org/) - Security management solution, can manage LDAP, KRB, DNS, sudo, and more
+  * [Indieauth](https://indieauth.com/) - Sign in with your domain name (using the rel-me-auth protocol).
+  * [Libravatar](https://www.libravatar.org/) - Libravatar is a service which delivers your avatar (profile picture) to other websites.
   * [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - Web frontend for managing entries (e.g. users, groups, DHCP settings) stored in an LDAP directory.
+  * [OpenID](http://openid.net/developers/libraries/) - A Simple Identity layer on top of OAuth 2.0.
+  * [OSIAM](http://osiam.github.io/) - Secure identity management solution providing REST based services for authentication and authorization.
   * [Samba](https://www.samba.org/) – Active Directory and CIFS protocol implementation.
+  * [BounCA](https://bounca.org/) - A personal SSL Key / Certificate Authority web-based tool for creating self-signed certificates.
 
 
 ## IT Asset Management
@@ -366,6 +391,7 @@
   * [Adagios](http://adagios.org/) - Web based Nagios interface for configuration and monitoring (replacement to the standard interface), and a REST interface, [SourceCode](https://github.com/opinkerfi/adagios), [Documentation](https://github.com/opinkerfi/adagios/wiki))
   * [Alerta](https://github.com/guardian/alerta) - Distributed, scaleable and flexible monitoring system.
   * [Bloonix](https://bloonix.org) - Bloonix is a monitoring solution that helps businesses to ensure high availability and performance. `GPLv3` `Perl`
+  * [bolo](http://bolo.niftylogic.com/) - A Do-it-Yourself monitoring framework built to gather metrics, mine data and report on the systems in your network.
   * [Bosun](http://bosun.org/) - Monitoring and alerting system by Stack Exchange ([Source Code](https://github.com/bosun-monitor/bosun), [Documentation](http://bosun.org/quickstart.html)) `MIT` `Go`
   * [Cacti](http://www.cacti.net) - Web-based network monitoring and graphing tool.
   * [Cabot](http://cabotapp.com/) - Monitoring and alerts, similar to PagerDuty.
@@ -384,15 +410,16 @@
   * [Observium](http://www.observium.org/) - SNMP monitoring for servers and networking devices. Runs on linux.
   * [OMD](http://omdistro.org/) - The Open Monitoring Distribution.
   * [PhpSysInfo](https://phpsysinfo.github.io/phpsysinfo/) - A customizable PHP script that displays information about your system nicely.
+  * [PHP Server Monitor](https://www.phpservermonitor.org/) - Open source tool to monitor your servers and websites
   * [psdash](https://github.com/Jahaja/psdash) - A linux system information web dashboard using psut
 ils and flask.
   * [pyDash](https://k3oni.github.io/pydash/) - Small web-based monitoring dashboard for linux.
   * [Riemann](http://riemann.io/) - Flexible and fast events processor allowing complex events/metrics analysis.
   * [Sensu](https://sensuapp.org/) - Monitoring framework.
-  * [Sentry](https://getsentry.com/) - Application monitoring, event logging and aggregation.
   * [ServerStatus BotoX](https://github.com/BotoX/ServerStatus) - Display and monitor your servers statistics in a beatiful way.
   * [ServerStatus moejda](https://github.com/mojeda/ServerStatus) - Server Status website script, displays uptime (days), free RAM, free HDD
   * [Shinken](http://www.shinken-monitoring.org/) - Another monitoring framework.
+  * [SWMP - Server Web Monitor Page](https://swmp.thefuzz.xyz/) - A responsive, eye-pleasing Linux server statistics dashboard.
   * [Thruk](http://www.thruk.org/) - Multibackend monitoring web interface with support for Naemon, Nagios, Icinga and Shinken.
   * [Uchiwa](https://uchiwa.io/) - Simple dashboard for sensu.
   * [Xymon](https://www.xymon.com/) - Network monitoring inspired by Big Brother.
@@ -407,6 +434,7 @@ ils and flask.
   * [Diamond](https://github.com/BrightcoveOS/Diamond) - Python based statistic collection daemon.
   * [Collectd](http://collectd.org/) - System statistic collection daemon.
   * [Collectl](http://collectl.sourceforge.net/) - High precision system performance metrics collecting tool.
+  * [PGObserver](https://github.com/zalando/PGObserver) - Monitoring solution for PostgreSQL databases that also works with AWS RDS.
   * [Statsd](https://github.com/etsy/statsd/) - Application statistic listener.
   * [tcollector](http://opentsdb.net/docs/build/html/user_guide/utilities/tcollector.html) - System statistic collection daemon written in Python for OpenTSDB
 
@@ -435,6 +463,7 @@ ils and flask.
 
   * [GestióIP](http://www.gestioip.net/) - An automated web based IPv4/IPv6 IP Address Management tool.
   * [Oxidized](https://github.com/ytti/oxidized) - A modern take on network device configuration monitoring with web interface and GIT storage.
+  * [phpIPAM](http://phpipam.net/) - Open source IP address management with [PowerDNS](https://www.powerdns.com/) integration.
   * [RANCID](http://www.shrubbery.net/rancid/) - Monitors network device's configuration and maintain history of changes.
   * [rConfig](http://www.rconfig.com/) - Another network device configuration management tool.
   * [trigger](https://github.com/trigger/trigger) - Robust network automation toolkit written in Python.
@@ -526,7 +555,10 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 *Operating system–level virtualization.*
 
   * [Docker](http://www.docker.com/) - Platform for developers and sysadmins to build, ship, and run distributed applications.
+    * [Docker Compose](https://docs.docker.com/compose/) - Define and run multi-container Docker applications.
+    * [Docker Swarm](https://docs.docker.com/engine/swarm/) - Manage cluster of Docker Engines.
   * [LXC](https://linuxcontainers.org/lxc/) - Userspace interface for the Linux kernel containment features.
+    * [LXD](https://linuxcontainers.org/lxd/) – a container "hypervisor" and a better UX for LXC.
   * [OpenVZ](http://openvz.org) - Container-based virtualization for Linux.
 
 
@@ -545,6 +577,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
   * [mitmproxy](http://mitmproxy.org/) - A Python tool used for intercepting, viewing and modifying network traffic. Invaluable in troubleshooting certain problems.
   * [perf-tools](https://github.com/brendangregg/perf-tools) - Performance analysis tools based on Linux perf_events (aka perf) and ftrace.
   * [Sysdig](http://www.sysdig.org/) - Capture system state and activity from a running Linux instance, then save, filter and analyze.
+  * [Dripcap](https://github.com/dripcap/dripcap) - Caffeinated Packet Analyzer.
   * [Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer.
 
 
@@ -567,7 +600,6 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
   * [KVM](http://www.linux-kvm.org) - Linux kernel virtualization infrastructure.
   * [OpenNebula](http://opennebula.org/) - Flexible enterprise cloud made simple.
   * [OpenNode](http://opennodecloud.com) - Builds open-source infrastructure management software and implements cloud systems.
-  * [Otto](https://www.ottoproject.io/) - Development and deployment system designed as the successor to Vagrant.
   * [oVirt](http://www.ovirt.org/) - Manages virtual machines, storage and virtual networks.
   * [Packer](https://www.packer.io/) - A tool for creating identical machine images for multiple platforms from a single source configuration.
   * [Proxmox VE](https://www.proxmox.com/proxmox-ve) - Virtualization management solution.
@@ -581,6 +613,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 ## VPN
 *VPN software.*
 
+  * [ocserv](http://www.infradead.org/ocserv/) - Cisco AnyConnect-compatible VPN server
   * [OpenVPN](https://community.openvpn.net) - Uses a custom security protocol that utilizes SSL/TLS for key exchange.
   * [Pritunl](http://pritunl.com/) - OpenVPN based solution. Easy to set up.
   * [SoftEther](https://www.softether.org/) - Multi-protocol software VPN with advanced features
@@ -592,6 +625,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 ## Web
 *Web servers.*
 
+  * [Algernon](http://algernon.roboticoverlords.org/) - Web/application server that supports Lua, live-reload, templates, Sass and HTTP/2.
   * [Apache](http://httpd.apache.org/) - Most popular web server.
   * [Caddy](https://caddyserver.com/) - Lightweight, general-purpose web server supporting HTTP/2, automatic TLS and easy configuration. Written in Go.
   * [Cherokee](http://cherokee-project.com/) - Lightweight, high-performance web server/reverse proxy.
@@ -615,11 +649,13 @@ Various resources, such as books, websites and articles, for improving your skil
   * [Code as Craft](https://codeascraft.com/) - Etsy's Ops blog, lots of technical posts.
   * [DevOpsGuys](http://blog.devopsguys.com/) - Devops consultants who blog about operations.
   * [Rackspace Developers](https://developer.rackspace.com/blog/) - Slightly biased blog with lots of Devops Topics.
+  * [RoseHosting Blog](https://www.rosehosting.com/blog/) - Linux tutorials for installing and configuring various software through the Linux command line. Guides and introductions to different Linux technologies and applications. Tips and tricks you can do via the Linux command line and more.
 
 
 ## Books
 *Sysadmin related books.*
 
+  * [Codex](https://www.gitbook.com/book/starkandwayne/codex/details) - How to deploy Cloud Foundry PaaS on infrastructures like AWS, OpenStack, Azure by Stark & Wayne, LLC.
   * [The Linux Command Line](http://linuxcommand.org/tlcl.php) - A book about the Linux command line by William Shotts.
   * [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](http://itrevolution.com/books/phoenix-project-devops-book/) - How DevOps techniques can fix the problems that happen in IT organizations.
   * [The Practice of System and Network Administration](http://everythingsysadmin.com/books.html) - The first and second editions describes the best practices of system and network administration, independent of specific platforms or technologies.
@@ -665,6 +701,7 @@ Various resources, such as books, websites and articles, for improving your skil
 ## Websites
 *Useful sysadmin related websites.*
 
+  * [Awesome SysAdmin @ LibHunt](https://sysadmin.libhunt.com) - Your go-to SysAdmin Toolbox. Based on the list here.
   * [Ops School](http://www.opsschool.org) - Comprehensive program that will help you learn to be an operations engineer.
   * [Digital Ocean Tutorials](https://www.digitalocean.com/community/tutorials) - A surprisingly vast resource for getting the basics of certain applications, tools, or even systems administration topics.
 
